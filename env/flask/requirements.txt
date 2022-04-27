@@ -1,0 +1,7 @@
+pandas
+requests
+pydantic
+loguru
+sqlalchemy
+tqdm
+pymysql
