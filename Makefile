@@ -1,14 +1,12 @@
-RFup:
+rfup:
 	docker-compose -f rabbitmq_flower.yml up
-RFdown:
+rfdown:
 	docker-compose -f rabbitmq_flower.yml down
 
-flaskup:
-	docker-compose -f flask.yml up
-flaskdown:
-	docker-compose -f flask.yml down
+webup:
+	docker-compose -f web.yml up
+webdown:
+	docker-compose -f web.yml down
 
-celery:
-	docker exec -it finmind_practice_flask_1 celery -A worker worker --loglevel=info
 producer:
 	docker exec -it finmind_practice_flask_1 python producer.py
