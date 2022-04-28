@@ -5,3 +5,4 @@ loguru
 sqlalchemy
 tqdm
 pymysql
+celery
