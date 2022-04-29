@@ -16,4 +16,4 @@ FinMind Book
 
 1. ssh 到第二台電腦
 2. cd projects/finmind_practice
-3. make producer
+3. make producer 
