@@ -39,14 +39,6 @@ services:
     networks:
         - finmind_network
 
-  celery:
-    image: finmind_flask
-    entrypoint: ["celery", "-A", "worker", "worker", "--loglevel=info"]
-    depends_on: 
-      - flask
-    networks:
-      - finmind_network
-    
 
 networks:
   finmind_network:

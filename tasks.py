@@ -1,5 +1,4 @@
-from worker import app
-
+from app import app
 
 # 註冊 task, 有註冊的 task 才可以變成任務發送給 rabbitmq
 @app.task()
